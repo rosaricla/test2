@@ -6,7 +6,7 @@
  *
  * dataset.json data gotten from generatedata.com
  */
-$file_contents = file_get_contents('OMIM_DN.json');
+$file_contents = file_get_contents('https://raw.githubusercontent.com/rosaricla/test2/master/CLNDN.json');
 
 if(!$file_contents){
 	throw new Exception('Invalid file name');
